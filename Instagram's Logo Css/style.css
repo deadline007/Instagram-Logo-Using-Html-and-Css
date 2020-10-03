@@ -1,0 +1,78 @@
+.instagram-logo {
+  position: relative;
+  width: 269px;
+  height: 269px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #3051f1 10%, #c92bb7 70%) no-repeat;
+  border-radius: 62px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.25);
+}
+.instagram-logo:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  content: "";
+  background: radial-gradient(
+      circle farthest-corner at 28% 100%,
+      #fcdf8f 0%,
+      #fbd377 10%,
+      #fa8e37 22%,
+      #f73344 35%,
+      rgba(247, 51, 68, 0) 65%
+    )
+    no-repeat;
+}
+.instagram-logo,
+.instagram-logo * {
+  box-sizing: border-box;
+}
+.instagram-logo * {
+  position: absolute;
+  display: block;
+}
+.instagram-logo > div {
+  top: 36px;
+  left: 36px;
+  width: 197px;
+  height: 197px;
+  border-radius: 57px;
+  border: 17px #ffffff solid;
+}
+.instagram-logo > div > div:nth-child(1) {
+  top: 31.5px;
+  left: 31.5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 17px #ffffff solid;
+}
+.instagram-logo > div > div:nth-child(2) {
+  display: block;
+  width: 23px;
+  height: 23px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  right: 17px;
+  top: 17px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
